@@ -1,0 +1,18 @@
+[package]
+authors = ["Eamon mikulec <boogie@mikulec.com>"]
+name = "wall"
+version = "0.1.0"
+
+[dependencies]
+log = "0.4.1"
+nanoid = "0.2.0"
+rocket = "0.3.9"
+rocket_codegen = "0.3.9"
+rocket_contrib = "0.3.9"
+
+[dependencies.rusqlite]
+features = [
+    "bundled",
+    "backup",
+]
+version = "0.13.0"

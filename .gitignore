@@ -1,0 +1,17 @@
+# --back end--
+target
+**/*.rs.bk
+db.sqlite
+
+# dependencies
+node_modules
+
+# --front end--
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
