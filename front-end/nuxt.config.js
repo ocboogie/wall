@@ -1,6 +1,16 @@
+const path = require("path");
+
 const { NormalModuleReplacementPlugin } = require("webpack");
 
+require("dotenv").config({ path: path.resolve(process.cwd(), "../.env") });
+
+console.log(process.env);
+
 module.exports = {
+  env: {
+    API_URL: "http://wall.ocboogie.com/api",
+    ...process.env
+  },
   /*
   ** Headers of the page
   */
