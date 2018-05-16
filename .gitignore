@@ -1,3 +1,6 @@
+# --both--
+.env
+
 # --back end--
 target
 **/*.rs.bk
