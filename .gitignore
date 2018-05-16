@@ -2,6 +2,7 @@
 target
 **/*.rs.bk
 db.sqlite
+rls
 
 # dependencies
 node_modules
