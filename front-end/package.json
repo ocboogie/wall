@@ -14,9 +14,6 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.7",
-    "@fortawesome/fontawesome-free-solid": "^5.0.12",
-    "@fortawesome/vue-fontawesome": "^0.0.22",
     "codemirror": "^5.37.0",
     "element-ui": "^2.3.7",
     "lodash.startcase": "^4.4.0",
