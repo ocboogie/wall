@@ -9,31 +9,34 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "eslint --ext .js,.vue .",
+    "format": "npm run lint -- --fix",
     "precommit": "npm run lint"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.7",
     "@fortawesome/fontawesome-free-solid": "^5.0.12",
     "@fortawesome/vue-fontawesome": "^0.0.22",
-    "animejs": "^2.2.0",
-    "codeflask": "^0.3.1",
     "codemirror": "^5.37.0",
     "element-ui": "^2.3.7",
     "lodash.startcase": "^4.4.0",
-    "monaco-editor": "^0.12.0",
     "nuxt": "^1.0.0",
-    "prismjs": "^1.14.0",
-    "vue-codemirror": "^4.0.5"
+    "prismjs": "^1.14.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
+    "@vue/eslint-config-airbnb": "^3.0.0-beta.10",
+    "@vue/eslint-config-prettier": "^3.0.0-beta.10",
+    "babel-eslint": "^8.2.3",
     "dotenv": "^5.0.1",
     "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
+    "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-vue": "^4.0.0",
     "node-sass": "^4.9.0",
+    "prettier": "^1.12.1",
     "sass-loader": "^7.0.1"
   }
 }
