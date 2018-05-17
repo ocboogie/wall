@@ -18,7 +18,8 @@
     "element-ui": "^2.3.7",
     "lodash.startcase": "^4.4.0",
     "nuxt": "^1.0.0",
-    "prismjs": "^1.14.0"
+    "prismjs": "^1.14.0",
+    "vue-codemirror": "^4.0.5"
   },
   "devDependencies": {
     "@vue/eslint-config-airbnb": "^3.0.0-beta.10",

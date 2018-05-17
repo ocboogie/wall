@@ -4,8 +4,6 @@ const { NormalModuleReplacementPlugin } = require("webpack");
 
 require("dotenv").config({ path: path.resolve(process.cwd(), "../.env") });
 
-console.log(process.env);
-
 module.exports = {
   env: {
     API_URL: "http://wall.ocboogie.com/api",
@@ -47,6 +45,7 @@ module.exports = {
       }
       config.plugins.push(
         new NormalModuleReplacementPlugin(
+          // eslint-disable-next-line no-useless-escape
           /element-ui[\/\\]lib[\/\\]locale[\/\\]lang[\/\\]zh-CN/,
           "element-ui/lib/locale/lang/en"
         )

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="title">New Wall</div>
     <editor/>
-    <el-button type="primary" plain class="submit-button">Submit</el-button>
+    <el-button type="primary" class="submit-button" plain>Submit</el-button>
   </div>
 </template>
 <script>
@@ -36,4 +36,3 @@ export default {
 <style>
 @import "codemirror/lib/codemirror.css";
 </style>
-
